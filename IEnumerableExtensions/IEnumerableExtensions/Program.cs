@@ -20,7 +20,6 @@ namespace IEnumerableExtensions
         }
         public static IEnumerable<int> DevideByTwo1(this IEnumerable<int> source)
         {
-            List<int> list1 = new List<int>();
             foreach (var item in source)
             {
                 yield return item / 2;
@@ -37,7 +36,6 @@ namespace IEnumerableExtensions
         }
         public static IEnumerable<int> MultipleByThree1(this IEnumerable<int> source)
         {
-            List<int> list3 = new List<int>();
             foreach (var item in source)
             {
                 yield return item * 3;
@@ -54,7 +52,6 @@ namespace IEnumerableExtensions
         }
         public static IEnumerable<int> MinusTen1(this IEnumerable<int> source)
         {
-            List<int> list5 = new List<int>();
             foreach (var item in source)
             {
                 yield return item - 10;
@@ -71,7 +68,6 @@ namespace IEnumerableExtensions
         }
         public static IEnumerable<int> PlusFour1(this IEnumerable<int> source)
         {
-            List<int> list7 = new List<int>();
             foreach (var item in source)
             {
                 yield return item + 4;
@@ -88,7 +84,6 @@ namespace IEnumerableExtensions
         }
         public static IEnumerable<int> ModulusTwo1(this IEnumerable<int> source)
         {
-            List<int> list9 = new List<int>();
             foreach (var item in source)
             {
                 yield return item % 2;
